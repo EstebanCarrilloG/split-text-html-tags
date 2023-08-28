@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const textContainer = document.querySelector("#sectionTitle");
     
     // Obtiene el contenido del título
-    const textToSeparate = sectionTitle.innerHTML;
+    const textToSeparate = textContainer.innerHTML;
   
     // Divide el título en palabras utilizando un espacio como separador
     textContainer.innerHTML = textToSeparate.split(" ")
